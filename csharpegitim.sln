@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "altdizi", "altdizi\altdizi.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{B7232E5F-7486-4322-92F2-88B7864C6142}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp3", "ConsoleApp3\ConsoleApp3.csproj", "{3401E894-BB6B-4EAF-A348-8873B6A9BD63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{B7232E5F-7486-4322-92F2-88B7864C6142}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7232E5F-7486-4322-92F2-88B7864C6142}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7232E5F-7486-4322-92F2-88B7864C6142}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3401E894-BB6B-4EAF-A348-8873B6A9BD63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3401E894-BB6B-4EAF-A348-8873B6A9BD63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3401E894-BB6B-4EAF-A348-8873B6A9BD63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3401E894-BB6B-4EAF-A348-8873B6A9BD63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
