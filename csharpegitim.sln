@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "diziler2", "diziler2\diziler2.csproj", "{28A5E88A-54A5-4C07-AD3D-CDE644E859EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ogrenci_notlari_dizi", "ogrenci_notlari_dizi\ogrenci_notlari_dizi.csproj", "{3E007873-28D9-450D-8C1B-C64E9B2CEEE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{28A5E88A-54A5-4C07-AD3D-CDE644E859EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28A5E88A-54A5-4C07-AD3D-CDE644E859EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28A5E88A-54A5-4C07-AD3D-CDE644E859EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E007873-28D9-450D-8C1B-C64E9B2CEEE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E007873-28D9-450D-8C1B-C64E9B2CEEE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E007873-28D9-450D-8C1B-C64E9B2CEEE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E007873-28D9-450D-8C1B-C64E9B2CEEE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
