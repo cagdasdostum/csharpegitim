@@ -3,21 +3,28 @@
 
 
 
-Stack<char> yigin = new();
-string metin;
-
-Console.WriteLine("metin girin:");
-metin = Console.ReadLine();
-
-
-
-
-foreach(char c in metin)
+internal class Program
 {
-  yigin.Push(c);
-}
+    private static void Main(string[] args)
+    {
+        Stack<char> yigin = new();
+        string? metin;
 
-while(yigin.Count>0) {
-  char c = yigin.Pop();
-  Console.Write($"{c}");
+        Console.WriteLine("metin girin:");
+        metin = Console.ReadLine();
+
+
+
+
+        foreach (char c in metin)
+        {
+            yigin.Push(c);
+        }
+
+        while (yigin.Count > 0)
+        {
+            char c = yigin.Pop();
+            Console.Write($"{c}");
+        }
+    }
 }
