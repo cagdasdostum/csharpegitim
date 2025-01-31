@@ -10,6 +10,7 @@ using ConsoleApp16;
 
 int secim = 0;
 List<Musteri> musteriListesi = new();
+List<Hesap> hesapListesi = new();
 do
 {
   secim = MenuEkranı.Goster();
@@ -19,6 +20,7 @@ do
     case 0: Console.WriteLine("Uygulama sona erdi..."); break;
     case 1: MusteriEklemeEkrani.Goster(musteriListesi); break;
     case 2: MusteriListelemeEkrani.Goster(musteriListesi); break;
+    case 3: HesapAcmaEkrani.Goster(hesapListesi); break;
     default:
       Console.WriteLine("Hatalı seçim.."); 
       Console.ReadKey();

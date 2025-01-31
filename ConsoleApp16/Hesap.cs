@@ -6,7 +6,7 @@ public class Hesap
   {
     get; set;
   }
-  public string HesapTuru
+  public string? HesapTuru
   {
     get; set;
   }
