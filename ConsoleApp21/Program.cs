@@ -15,6 +15,7 @@ do
     case "help":  KomutHelp.Calistir(); break;
     case "exit": return; //return ile uygulama biticek.
     case "ls": KomutList.Calistir(path, komutArg); break;
+    case "cd": KomutCd.Calistir(path, komutArg); break;
     default: Console.ForegroundColor = ConsoleColor.Red;
     Console.WriteLine("Komut bulunamadı.");
     break;
